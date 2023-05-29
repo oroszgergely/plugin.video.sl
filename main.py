@@ -6,6 +6,7 @@ import xbmc
 import xbmcaddon
 import xbmcgui
 import xbmcplugin
+import xbmcvfs
 import replay
 import live
 import library
@@ -14,7 +15,7 @@ import datetime
 
 _id = int(sys.argv[1])
 _addon = xbmcaddon.Addon()
-_profile = utils.dec_utf8(xbmc.translatePath(_addon.getAddonInfo('profile')))
+_profile = utils.dec_utf8(xbmcvfs.translatePath(_addon.getAddonInfo('profile')))
 _user_name = xbmcplugin.getSetting(_id, 'username')
 _password = xbmcplugin.getSetting(_id, 'password')
 _provider = 'directone.hu'
