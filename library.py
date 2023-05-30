@@ -229,7 +229,7 @@ def play(sl, lid):
 
                 playitem.setInfo('video', video_info)
 
-                if 'actors' in data:
+                if 'actors' in data and not data['actors'] is None:
                     playitem.setCast([{'name':a} for a in data['actors']])
 
                 if 'poster' in data:
