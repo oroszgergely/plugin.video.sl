@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.sl" version="1.7.3" name="Direct One Live TV" provider-name="Pityke1105, Sorien, cache-sk,MilosKozina,gergelyorosz">
+<addon id="plugin.video.directone" version="1.7.6" name="Direct One Live TV" provider-name="Pityke1105, Sorien, cache-sk">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
@@ -15,12 +15,14 @@
   <description lang="en">PVR playlist and EPG generator for Direct One Live TV Service</description>
   <description lang="hu_hu">PVR lejátszási lista és EPG generátor Direct One Live TV-hez</description>
   <license>MIT</license>
-  <source>https://github.com/Pityke1105/plugin.video.sl</source>
+  <source>https://github.com/vargalex/plugin.video.directone</source>
   <news>
-    [B]1.7.3 Direct One HU[/B]
-    - EPG fixes, Matrix updates from MilosKozina(https://github.com/xbmc-kodi-cz/plugin.video.sl)
+[B]1.7.5[/B]
+- Omega compatibility
+[B]1.7.3 Direct One HU[/B]
+- Nexus compatibility
 [B]1.7.2 Direct One HU[/B]
-- Direct One modifications
+- Direct one modifications
 [B]1.7.1[/B]
 - generating epg into the past for catchup, default 0
 - Matrix skin blocking
